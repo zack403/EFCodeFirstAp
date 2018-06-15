@@ -26,8 +26,11 @@ namespace EFCodeFirstApp.DataAccess
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            //create default schema
+            //modelBuilder.HasDefaultSchema("admin");
             //Configure domain classes using modelBuilder here..
-           // modelBuilder.Configurations.Add(new Employee());
+            //modelBuilder.Entity<Employee>();
+            
 
         }
     }

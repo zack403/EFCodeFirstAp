@@ -53,6 +53,14 @@
     <Compile Include="Migrations\201806142110269_EFCodeFirstAppDb.Designer.cs">
       <DependentUpon>201806142110269_EFCodeFirstAppDb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806142320483_modifiedemployeeclass.cs" />
+    <Compile Include="Migrations\201806142320483_modifiedemployeeclass.Designer.cs">
+      <DependentUpon>201806142320483_modifiedemployeeclass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806150402238_classsmod.cs" />
+    <Compile Include="Migrations\201806150402238_classsmod.Designer.cs">
+      <DependentUpon>201806150402238_classsmod.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\BaseEntity.cs" />
@@ -66,6 +74,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201806142110269_EFCodeFirstAppDb.resx">
       <DependentUpon>201806142110269_EFCodeFirstAppDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806142320483_modifiedemployeeclass.resx">
+      <DependentUpon>201806142320483_modifiedemployeeclass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806150402238_classsmod.resx">
+      <DependentUpon>201806150402238_classsmod.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

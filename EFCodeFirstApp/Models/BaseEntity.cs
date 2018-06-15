@@ -11,6 +11,6 @@ namespace EFCodeFirstApp.Models
         public int ID { get; set; }
         public String FirstName { get; set; }
         public string LastName { get; set; }
-        public DateTime? DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
     }
 }
